@@ -1,0 +1,57 @@
+AI-Portfolio-Chloe-Tu/
+│
+├── README.md
+│
+└── NLP-Natural-Language-Processing-ITAI2373/
+    │
+    ├── Module-01/
+    │   └── NLP-in-Action-From-Pop-Culture-to-Processes_Chloe_Tu_ITAI_2373.pdf
+    │
+    ├── Module-02/
+    │   ├── Lab_02_Chloe_Tu_ITAI_2373.ipynb
+    │   ├── L02_Chloe_Tu_ITAI2373.pdf
+    │   └── L02_Journal_Chloe_Tu_ITAI_2373.pdf
+    │
+    ├── Module-03/
+    │   ├── A03_Chloe_Tu_ITAI_2373.pdf
+    │   ├── L03_Chloe_Tu_ITAI2373_GameDesign.pdf
+    │   └── L03_Chloe_Tu_ITAI2373_GameDesign.docx
+    │
+    ├── Module-04/
+    │   ├── L04__Chloe_Tu_ITAI_2373.ipynb
+    │   ├── L04_Chloe_Tu_ITAI_2373.pdf
+    │   └── L04_Journal_Chloe_Tu_ITAI_2373.pdf
+    │
+    ├── Module-05/
+    │   ├── L05_Tu_Chloe_ITAI2373.ipynb
+    │   └── L05_Chloe_Tu_ITAI_2373.pdf
+    │
+    ├── Module-06/
+    │   ├── A06_AV_Chloe_Tu__ITAI_2373.pdf
+    │   ├── A06_KG_Chloe_Tu__ITAI_2373.pdf
+    │   └── A06_RF_Chloe_Tu_ITAI 2373.pdf
+    │
+    ├── Module-07/
+    │   ├── L07_Chloe_Tu_ITAI2373.ipynb
+    │   ├── A07_Chloe_Tu_ITAI_2373.pdf
+    │   └── L07_Chloe_Tu ITAI_2373.pdf
+    │
+    ├── Module-08/
+    │   ├── A08_Chloe_Tu_ITAI_2373.pdf
+    │   └── L08_Chloe_Tu_ITAI_2373.pdf
+    │
+    ├── Module-09/
+    │   └── L09_Chloe_Tu_ITAI_2373.pdf
+    │
+    ├── Module-10/
+    │   └── L10_Chloe_Tu_ITAI2373.pdf
+    │
+    ├── Module-11/
+    │   ├── A11_Chloe_Tu_ITAI_2373.pdf
+    │   └── L11_Chloe_Tu_ITAI_2373.pdf
+    │
+    ├── Module-12/
+    │   └── A12_Chloe_Tu_ITAI2373.pdf
+    │
+    └── Module-13/
+        └── A13_Chloe_Tu_ITAI_2373.pdf
