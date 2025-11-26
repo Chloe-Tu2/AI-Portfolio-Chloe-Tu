@@ -8,50 +8,50 @@ AI-Portfolio-Chloe-Tu/
     │   └── NLP-in-Action-From-Pop-Culture-to-Processes_Chloe_Tu_ITAI_2373.pdf
     │
     ├── Module-02/
-    │   ├── Lab_02_Chloe_Tu_ITAI_2373.ipynb
-    │   ├── L02_Chloe_Tu_ITAI2373.pdf
-    │   └── L02_Journal_Chloe_Tu_ITAI_2373.pdf
+    │   ├── Lab_02_Chloe_Tu_ITAI_2373.ipynb (Code Implementation)
+    │   ├── L02_Chloe_Tu_ITAI2373.pdf (L02-AI-History-Detecitives-PDF)
+    │   └── L02_Journal_Chloe_Tu_ITAI_2373.pdf (Reflective Journal)
     │
     ├── Module-03/
-    │   ├── A03_Chloe_Tu_ITAI_2373.pdf
-    │   ├── L03_Chloe_Tu_ITAI2373_GameDesign.pdf
-    │   └── L03_Chloe_Tu_ITAI2373_GameDesign.docx
+    │   ├── A03_Chloe_Tu_ITAI_2373.pdf (Technical Proposal)
+    │   ├── L03_Chloe_Tu_ITAI2373_GameDesign.pdf(L03-AI-Game-Master-PDF)
+    │   └── L03_Chloe_Tu_ITAI2373_GameDesign.docx (L03-AI-Game-Master-docx)
     │
     ├── Module-04/
-    │   ├── L04__Chloe_Tu_ITAI_2373.ipynb
-    │   ├── L04_Chloe_Tu_ITAI_2373.pdf
-    │   └── L04_Journal_Chloe_Tu_ITAI_2373.pdf
+    │   ├── L04__Chloe_Tu_ITAI_2373.ipynb (Code Implementation)
+    │   ├── L04_Chloe_Tu_ITAI_2373.pdf (L04-Explore-Generative-AI-for-Visualizling-Rendering-History-PDF)
+    │   └── L04_Journal_Chloe_Tu_ITAI_2373.pdf (Reflective Journal)
     │
     ├── Module-05/
-    │   ├── L05_Tu_Chloe_ITAI2373.ipynb
-    │   └── L05_Chloe_Tu_ITAI_2373.pdf
+    │   ├── L05_Tu_Chloe_ITAI2373.ipynb (Code Implementation)
+    │   └── L05_Chloe_Tu_ITAI_2373.pdf (L05-Computational-Humor-PDF)
     │
     ├── Module-06/
-    │   ├── A06_AV_Chloe_Tu__ITAI_2373.pdf
-    │   ├── A06_KG_Chloe_Tu__ITAI_2373.pdf
-    │   └── A06_RF_Chloe_Tu_ITAI 2373.pdf
+    │   ├── A06_AV_Chloe_Tu__ITAI_2373.pdf (Audio/Video Walkthrough)
+    │   ├── A06_KG_Chloe_Tu__ITAI_2373.pdf (Knowledge Graph)
+    │   └── A06_RF_Chloe_Tu_ITAI 2373.pdf (Reflection Report)
     │
     ├── Module-07/
-    │   ├── L07_Chloe_Tu_ITAI2373.ipynb
-    │   ├── A07_Chloe_Tu_ITAI_2373.pdf
-    │   └── L07_Chloe_Tu ITAI_2373.pdf
+    │   ├── L07_Chloe_Tu_ITAI2373.ipynb (Code Implementation)
+    │   ├── A07_Chloe_Tu_ITAI_2373.pdf (Reflective Journal)
+    │   └── L07_Chloe_Tu ITAI_2373.pdf(L07-Neural-Networks-playground-PDF)
     │
     ├── Module-08/
-    │   ├── A08_Chloe_Tu_ITAI_2373.pdf
-    │   └── L08_Chloe_Tu_ITAI_2373.pdf
+    │   ├── A08_Chloe_Tu_ITAI_2373.pdf (Story Analysis Report)
+    │   └── L08_Chloe_Tu_ITAI_2373.pdf (Lab Report)
     │
     ├── Module-09/
-    │   └── L09_Chloe_Tu_ITAI_2373.pdf
+    │   └── L09_Chloe_Tu_ITAI_2373.pdf (Lab Report)
     │
     ├── Module-10/
-    │   └── L10_Chloe_Tu_ITAI2373.pdf
+    │   └── L10_Chloe_Tu_ITAI2373.pdf (Lab Report)
     │
     ├── Module-11/
-    │   ├── A11_Chloe_Tu_ITAI_2373.pdf
-    │   └── L11_Chloe_Tu_ITAI_2373.pdf
+    │   ├── A11_Chloe_Tu_ITAI_2373.pdf (Film Analysis)
+    │   └── L11_Chloe_Tu_ITAI_2373.pdf (Lab Report)
     │
     ├── Module-12/
-    │   └── A12_Chloe_Tu_ITAI2373.pdf
+    │   └── A12_Chloe_Tu_ITAI2373.pdf (Lab Report)
     │
     └── Module-13/
-        └── A13_Chloe_Tu_ITAI_2373.pdf
+        └── A13_Chloe_Tu_ITAI_2373.pdf (Lab Report)
