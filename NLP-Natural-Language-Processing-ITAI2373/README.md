@@ -1,6 +1,6 @@
-# Natural Language Processing (ITAI 2373)
+# Natural Language Processing Portfolio (ITAI 2373)
 **Student:** Chloe Tu  
-**Program:** Articial Intelligence A.A.S
+**Program:** Artificial Intelligence A.A.S  
 
 ## 📖 Course Overview
 This repository serves as a comprehensive portfolio of coursework, labs, and innovative projects completed during the **ITAI 2373 Natural Language Processing** course. The work documented here demonstrates a progression from foundational text processing to advanced applications in Neural Network architecture, Generative Adversarial Networks (GANs), Voice Technology, and Ethical AI design.
@@ -22,58 +22,85 @@ This repository serves as a comprehensive portfolio of coursework, labs, and inn
 * **File:** `NLP-in-Action-From-Pop-Culture-to-Processes_Chloe_Tu_ITAI_2373.pdf`
 * **Description:** An introductory exploration into the landscape of Natural Language Processing. This document analyzes how NLP is portrayed in popular culture versus its actual industrial applications, establishing a baseline understanding of AI communication capabilities.
 
+---
+
 ### 🔹 Module 02: Text Processing and Cleaning
-* **Files:**
-    * `Lab_02_Chloe_Tu_ITAI_2373.ipynb` (Code Implementation)
-    * `L02_Journal_Chloe_Tu_ITAI_2373.pdf` (Reflective Journal)
-    *  `L02_Chloe_Tu_ITAI2373.pdf` (L02 AI History Detectives PDF)
-* **Description:** Focused on the critical "data wrangling" phase of NLP. I utilized Python libraries to construct a cleaning pipeline that ingests raw text, removes HTML tags and special characters using Regular Expressions (Regex), and normalizes text for downstream analysis. The journal documents the challenges faced during the tokenization process.
+* **Source Code:** `Lab_02_Chloe_Tu_ITAI_2373.ipynb`
+* **Documentation:** `L02_Chloe_Tu_ITAI2373.pdf`, `L02_Journal_Chloe_Tu_ITAI_2373.pdf`
+
+#### Project Details
+* **Problem Statement:** Raw text data from web sources is often unstructured and noisy, containing HTML tags, special characters, and inconsistencies that hinder model performance.
+* **Approach & Methodology:** Constructed a data cleaning pipeline using Python's **Regex** and **NLTK**. The process involved:
+    1. Ingesting raw text data.
+    2. Stripping HTML tags and non-alphanumeric characters.
+    3. Normalizing text (lowercasing).
+    4. Tokenizing sentences into words.
+* **Results & Evaluation:** Successfully transformed a "dirty" dataset into a clean list of tokens ready for analysis.
+* **Learning Outcomes:** Mastered the specific challenges of tokenization and the necessity of "data wrangling" before modeling begins.
+
+---
 
 ### 🔹 Module 03: Audio Preprocessing (Project EchoBlade)
-* **Files:**
-    * `A03_Chloe_Tu_ITAI_2373.pdf` (Technical Proposal)
-    * `L03_Chloe_Tu_ITAI2373_GameDesign.pdf` (L03 AI Game Master PDF Game World Design)
-    * `L03_Chloe_Tu_ITAI2373_GameDesign.docx` (L03 AI Game Master Design Doc Source)
+* **Files:** `A03_Chloe_Tu_ITAI_2373.pdf`, `L03_Chloe_Tu_ITAI2373_GameDesign.pdf`, `L03_Chloe_Tu_ITAI2373_GameDesign.docx`
 * **Description:** A creative proposal for "EchoBlade," a specialized voice recognition system designed for the MMORPG *Legends of the Shattered Realms*.
     * **Challenge:** Solving the "Cocktail Party Problem" in high-noise, reverb-heavy virtual environments.
     * **Solution:** Proposed a Seq2Seq model architecture capable of processing invented fantasy languages and utilizing dereverb algorithms to isolate player commands from background game noise.
 
+---
+
 ### 🔹 Module 04: Introduction to Text Representation
-* **Files:**
-    * `L04__Chloe_Tu_ITAI_2373.ipynb` (Code Implementation)
-    * `L04_Journal_Chloe_Tu_ITAI_2373.pdf` (Reflective Journal)
-    * `L04_Chloe_Tu_ITAI_2373.pdf` (L04 Exlore Generative AI for Visualizing Rendering History PDF)
-* **Description:** Explored the transformation of unstructured text into numerical vectors that machine learning algorithms can process. Implemented techniques such as **Bag-of-Words (BoW)** and **TF-IDF** (Term Frequency-Inverse Document Frequency) to quantify word importance within a corpus.
+* **Source Code:** `L04__Chloe_Tu_ITAI_2373.ipynb`
+* **Documentation:** `L04_Chloe_Tu_ITAI_2373.pdf`, `L04_Journal_Chloe_Tu_ITAI_2373.pdf`
+
+#### Project Details
+* **Problem Statement:** Machine learning algorithms cannot process raw text strings; they require numerical input.
+* **Approach & Methodology:** Implemented vectorization techniques to convert text into numerical features.
+    * Used **Bag-of-Words (BoW)** to count word occurrences.
+    * Applied **TF-IDF (Term Frequency-Inverse Document Frequency)** to weigh the importance of words relative to the corpus.
+* **Results:** Generated sparse matrices representing the text data, highlighting unique vocabulary density.
+* **Learning Outcomes:** Understood how to quantify word importance and the trade-offs between dense and sparse vector representations.
+
+---
 
 ### 🔹 Module 05: Part of Speech (POS) Tagging
-* **Files:**
-    * `L05_Tu_Chloe_ITAI2373.ipynb` (Code Implementation)
-    * `L05_Chloe_Tu_ITAI_2373.pdf` (Explore Generative AI for Visualizing Rendering History PDF)
-* **Description:** Utilized NLTK to perform automated grammatical tagging. The project involved building a tagger to identify nouns, verbs, adjectives, and other parts of speech, which is a fundamental step for syntactic analysis and named entity recognition.
+* **Source Code:** `L05_Tu_Chloe_ITAI2373.ipynb`
+* **Documentation:** `L05_Chloe_Tu_ITAI_2373.pdf`
+
+#### Project Details
+* **Problem Statement:** To understand the syntactic structure of sentences, an AI must be able to identify the grammatical role of each word.
+* **Approach & Methodology:** Utilized the **NLTK** library to build an automated tagger. The script processes sentences and assigns tags (e.g., NN for Noun, VB for Verb) based on context and definition.
+* **Results:** The model successfully tagged sample sentences, enabling the identification of actions (verbs) and subjects (nouns).
+* **Learning Outcomes:** Gained insight into syntactic analysis, a fundamental step for Named Entity Recognition (NER).
+
+---
 
 ### 🔹 Module 06: Mapping the Neural Network Brain
-* **Files:**
-    * `A06_AV_Chloe_Tu__ITAI_2373.pdf` (Audio/Video Walkthrough)
-    * `A06_KG_Chloe_Tu__ITAI_2373.pdf` (Knowledge Graph)
-    * `A06_RF_Chloe_Tu_ITAI 2373.pdf` (Reflection Report)
+* **Files:** `A06_AV_Chloe_Tu__ITAI_2373.pdf`, `A06_KG_Chloe_Tu__ITAI_2373.pdf`, `A06_RF_Chloe_Tu_ITAI 2373.pdf`
 * **Description:** A conceptual visualization project that maps the biological functions of the human brain to the architectural components of Artificial Neural Networks (ANNs).
     * **Key Insight:** Mapped *Dendrites* to *Input Layers*, *Synapses* to *Weights*, and *Axons* to *Outputs*. The reflection report discusses the limitations of biological analogies when explaining supervised learning algorithms like Backpropagation.
 
+---
+
 ### 🔹 Module 07: Sentiment and Emotion Analysis
-* **Files:**
-    * `L07_Chloe_Tu_ITAI2373.ipynb` (Code Implementation)
-    * `A07_Chloe_Tu_ITAI_2373.pdf` (Neural Network Architecture Presentation)
-    * `L07_Chloe_Tu ITAI_2373.pdf` (L07 Neural Networks Playgrounds PDF)
-* **Description:** Designed and visualized a complete Neural Network architecture for an Ad-Click Prediction Model.
+* **Source Code:** `L07_Chloe_Tu_ITAI2373.ipynb`
+* **Documentation:** `A07_Chloe_Tu_ITAI_2373.pdf`, `L07_Chloe_Tu ITAI_2373.pdf`
+
+#### Project Details
+* **Problem Statement:** Predicting user behavior (Ad-Clicks) based on historical data features.
+* **Approach & Methodology:** Designed a Neural Network architecture from scratch.
     * **Architecture:** Input Layer (Time on Site, Device Type) → Hidden Layers (ReLU Activation) → Output Layer (Sigmoid Function).
-    * **Mechanism:** Detailed the mathematical process of Forward Propagation and how Gradient Descent is applied during Backpropagation to minimize the Loss Function.
+    * **Training:** Implemented Forward Propagation to make predictions and Backpropagation/Gradient Descent to minimize the Loss Function.
+* **Results:** The network successfully adjusted its weights to minimize error, demonstrating the mechanics of learning.
+* **Learning Outcomes:** Deepened understanding of Neural Network architecture, activation functions, and the mathematics of optimization.
+
+---
 
 ### 🔹 Module 08: Generative Adversarial Networks (Fact vs. Fiction)
-* **Files:**
-    * `A08_Chloe_Tu_ITAI_2373.pdf` (Story Analysis Report)
-    * `L08_Chloe_Tu_ITAI_2373.pdf` (Lab Report)
+* **Files:** `A08_Chloe_Tu_ITAI_2373.pdf`, `L08_Chloe_Tu_ITAI_2373.pdf`
 * **Description:** A "Turing Test" style experiment designed to simulate the **Discriminator** component of a GAN. I analyzed stories generated by LLMs (Gemini, ChatGPT, Claude) against human-written events to identify patterns of authenticity.
     * **Findings:** "Real" training data relies on specific sensory details and imperfection, while "Generated" fakes often adhere to cliché narrative arcs and perfect resolution.
+
+---
 
 ### 🔹 Module 09: Computer Vision & Image Generation
 * **File:** `L09_Chloe_Tu_ITAI_2373.pdf`
@@ -81,12 +108,10 @@ This repository serves as a comprehensive portfolio of coursework, labs, and inn
 
 ### 🔹 Module 10: Advanced NLP Concepts
 * **File:** `L10_Chloe_Tu_ITAI2373.pdf`
-* **Description:** A lab report covering specialized advanced techniques in NLP, likely focusing on transformer architectures or specific applications of deep learning in language tasks.
+* **Description:** A lab report covering specialized advanced techniques in NLP, focusing on transformer architectures and deep learning applications in language tasks.
 
 ### 🔹 Module 11: AI Digital Assistants
-* **Files:**
-    * `A11_Chloe_Tu_ITAI_2373.pdf` (Film Analysis)
-    * `L11_Chloe_Tu_ITAI_2373.pdf` (Lab Report)
+* **Files:** `A11_Chloe_Tu_ITAI_2373.pdf`, `L11_Chloe_Tu_ITAI_2373.pdf`
 * **Description:** A comparative analysis of the fictional AI "Samantha" from the movie *Her* (2013) versus modern Conversational AI agents. The report evaluates current technological limitations regarding consciousness and emotional reciprocity, while raising ethical concerns about data privacy and user dependency.
 
 ### 🔹 Module 12: Predictive Modeling
@@ -102,3 +127,17 @@ This repository serves as a comprehensive portfolio of coursework, labs, and inn
     * **Ethics:** Developed strict mitigation strategies for privacy (local-only processing) and safety (collision avoidance sensors) to adhere to core AI ethical principles.
 
 ---
+
+## 💻 Requirements & Dependencies
+To run the code provided in the `.ipynb` files, the following Python libraries are required:
+
+```text
+python>=3.8
+pandas
+numpy
+nltk
+scikit-learn
+tensorflow
+matplotlib
+seaborn
+jupyterlab
