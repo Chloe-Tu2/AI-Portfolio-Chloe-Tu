@@ -105,21 +105,25 @@ This repository serves as a comprehensive portfolio of coursework, labs, and inn
 ### 🔹 Module 09: Computer Vision & Image Generation
 * **File:** `L09_Chloe_Tu_ITAI_2373.pdf`
 * **Description:** An exploration of Multimodal AI, specifically examining platforms that bridge Natural Language Processing prompts with Computer Vision to generate images. This module investigates how text embeddings are translated into visual outputs.
-
+  
+---
 ### 🔹 Module 10: Advanced NLP Concepts
 * **File:** `L10_Chloe_Tu_ITAI2373.pdf`
 * **Description:** A lab report covering specialized advanced techniques in NLP, focusing on transformer architectures and deep learning applications in language tasks.
 
+---
 ### 🔹 Module 11: AI Digital Assistants
 * **Files:** `A11_Chloe_Tu_ITAI_2373.pdf`, `L11_Chloe_Tu_ITAI_2373.pdf`
 * **Description:** A comparative analysis of the fictional AI "Samantha" from the movie *Her* (2013) versus modern Conversational AI agents. The report evaluates current technological limitations regarding consciousness and emotional reciprocity, while raising ethical concerns about data privacy and user dependency.
 
+---
 ### 🔹 Module 12: Predictive Modeling
 * **File:** `A12_Chloe_Tu_ITAI2373.pdf`
 * **Description:** A narrative project titled **"The Algorithmic Alibi."**
     * **Concept:** Explored the societal impact of predictive policing algorithms.
     * **Technical Focus:** Demonstrated the workflow of predictive modeling (Data Collection → Preprocessing → Training → Evaluation) and highlighted the dangers of "Automation Bias" where humans over-rely on algorithmic probability scores.
 
+---
 ### 🔹 Module 13: Robotic Design & Ethical Analysis
 * **File:** `A13_Chloe_Tu_ITAI_2373.pdf`
 * **Description:** A comprehensive design proposal for **"The Maestro,"** an autonomous entertainment robot for the hospitality industry.
