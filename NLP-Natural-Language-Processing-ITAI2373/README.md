@@ -25,15 +25,15 @@ This repository serves as a comprehensive portfolio of coursework, labs, and inn
 ### 🔹 Module 02: Text Processing and Cleaning
 * **Files:**
     * `Lab_02_Chloe_Tu_ITAI_2373.ipynb` (Code Implementation)
-    * `L02_Chloe_Tu_ITAI2373.pdf` (Lab Instructions/Report)
     * `L02_Journal_Chloe_Tu_ITAI_2373.pdf` (Reflective Journal)
+    *  `L02_Chloe_Tu_ITAI2373.pdf` (L02 AI History Detectives PDF)
 * **Description:** Focused on the critical "data wrangling" phase of NLP. I utilized Python libraries to construct a cleaning pipeline that ingests raw text, removes HTML tags and special characters using Regular Expressions (Regex), and normalizes text for downstream analysis. The journal documents the challenges faced during the tokenization process.
 
 ### 🔹 Module 03: Audio Preprocessing (Project EchoBlade)
 * **Files:**
     * `A03_Chloe_Tu_ITAI_2373.pdf` (Technical Proposal)
-    * `L03_Chloe_Tu_ITAI2373_GameDesign.pdf` (Game World Design)
-    * `L03_Chloe_Tu_ITAI2373_GameDesign.docx` (Design Doc Source)
+    * `L03_Chloe_Tu_ITAI2373_GameDesign.pdf` (L03 AI Game Master PDF Game World Design)
+    * `L03_Chloe_Tu_ITAI2373_GameDesign.docx` (L03 AI Game Master Design Doc Source)
 * **Description:** A creative proposal for "EchoBlade," a specialized voice recognition system designed for the MMORPG *Legends of the Shattered Realms*.
     * **Challenge:** Solving the "Cocktail Party Problem" in high-noise, reverb-heavy virtual environments.
     * **Solution:** Proposed a Seq2Seq model architecture capable of processing invented fantasy languages and utilizing dereverb algorithms to isolate player commands from background game noise.
@@ -41,18 +41,19 @@ This repository serves as a comprehensive portfolio of coursework, labs, and inn
 ### 🔹 Module 04: Introduction to Text Representation
 * **Files:**
     * `L04__Chloe_Tu_ITAI_2373.ipynb` (Code Implementation)
-    * `L04_Chloe_Tu_ITAI_2373.pdf` (Lab Report)
     * `L04_Journal_Chloe_Tu_ITAI_2373.pdf` (Reflective Journal)
+    * `L04_Chloe_Tu_ITAI_2373.pdf` (L04 Exlore Generative AI for Visualizing Rendering History PDF)
 * **Description:** Explored the transformation of unstructured text into numerical vectors that machine learning algorithms can process. Implemented techniques such as **Bag-of-Words (BoW)** and **TF-IDF** (Term Frequency-Inverse Document Frequency) to quantify word importance within a corpus.
 
 ### 🔹 Module 05: Part of Speech (POS) Tagging
 * **Files:**
     * `L05_Tu_Chloe_ITAI2373.ipynb` (Code Implementation)
-    * `L05_Chloe_Tu_ITAI_2373.pdf` (Lab Report)
+    * `L05_Chloe_Tu_ITAI_2373.pdf` (Explore Generative AI for Visualizing Rendering History PDF)
 * **Description:** Utilized NLTK to perform automated grammatical tagging. The project involved building a tagger to identify nouns, verbs, adjectives, and other parts of speech, which is a fundamental step for syntactic analysis and named entity recognition.
 
 ### 🔹 Module 06: Mapping the Neural Network Brain
 * **Files:**
+    * `A06_AV_Chloe_Tu__ITAI_2373.pdf` (Audio/Video Walkthrough)
     * `A06_KG_Chloe_Tu__ITAI_2373.pdf` (Knowledge Graph)
     * `A06_RF_Chloe_Tu_ITAI 2373.pdf` (Reflection Report)
 * **Description:** A conceptual visualization project that maps the biological functions of the human brain to the architectural components of Artificial Neural Networks (ANNs).
@@ -62,7 +63,7 @@ This repository serves as a comprehensive portfolio of coursework, labs, and inn
 * **Files:**
     * `L07_Chloe_Tu_ITAI2373.ipynb` (Code Implementation)
     * `A07_Chloe_Tu_ITAI_2373.pdf` (Neural Network Architecture Presentation)
-    * `L07_Chloe_Tu ITAI_2373.pdf` (Lab Report)
+    * `L07_Chloe_Tu ITAI_2373.pdf` (L07 Neural Networks Playgrounds PDF)
 * **Description:** Designed and visualized a complete Neural Network architecture for an Ad-Click Prediction Model.
     * **Architecture:** Input Layer (Time on Site, Device Type) → Hidden Layers (ReLU Activation) → Output Layer (Sigmoid Function).
     * **Mechanism:** Detailed the mathematical process of Forward Propagation and how Gradient Descent is applied during Backpropagation to minimize the Loss Function.
