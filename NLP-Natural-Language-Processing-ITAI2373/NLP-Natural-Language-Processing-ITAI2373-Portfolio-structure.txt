@@ -5,7 +5,7 @@ AI-Portfolio-Chloe-Tu/
 └── NLP-Natural-Language-Processing-ITAI2373/
     │
     ├── Module-01/
-    │   └── NLP-in-Action-From-Pop-Culture-to-Processes_Chloe_Tu_ITAI_2373.pdf
+    │   └── NLP-in-Action-From-Pop-Culture-to-Processes_Chloe_Tu_ITAI_2373.pdf (Reflective Journal)
     │
     ├── Module-02/
     │   ├── Lab_02_Chloe_Tu_ITAI_2373.ipynb (Code Implementation)
