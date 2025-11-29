@@ -94,8 +94,15 @@ Project-09-Visual-Language-Models-(VLMs)/
 ├── P09_PF_(VLMs)-Visual-Language-Models.pdf     # Project Report (Print Format)
 ├── README.md                                    # Project Documentation
 └── Results-&-Visualizations/                    # Output images and plots
-    ├── Search_Queries_Outputs_Results.png
-    ├── Recall_Results_score_Evaluating_Image_Retrieval.png
-    ├── Parameters_percentage.png
     ├── BLEU_Score_Evaluating_Caption_Quality.png
-    └── ... (other visualization files)
+    ├── BLIP_Generate_Caption_01.jpg
+    ├── BLIP_Generate_Caption_02.jpg
+    ├── CLIP_Model_Statistics.png
+    ├── CLIP_Zero-Shot_Classification_Results.png
+    ├── Image-Text_Similarity_Matrix_(CLIP_Embeddings).png
+    ├── Image_Search_Fuction_people_playing_sports_&_Animals_In_Nature.jpg
+    ├── Image_Search_Function_Food_on_a_Table.jpg
+    ├── Parameters_percentage.png
+    ├── Recall_Results_score_Evaluating_Image_Retrieval.png
+    ├── Search_Queries_Outputs_Results.png
+    └── Similarity_Matrix_Contrastive_Learning_Demo.png
