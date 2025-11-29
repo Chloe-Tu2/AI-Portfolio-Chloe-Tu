@@ -72,6 +72,25 @@ I analyzed the parameter distribution to understand the computational cost of th
 
 *Figure 6: Breakdown of trainable parameters in the model architecture.*
 
+## 💾 Dataset Information
+This project utilizes the **COCO (Common Objects in Context)** dataset for training and evaluation benchmarks.
+
+* **Dataset Name:** COCO (Common Objects in Context)
+* **Source:** [https://cocodataset.org/#download](https://cocodataset.org/#download)
+* **Access Instructions:**
+    * **Note:** The dataset is not included in this repository due to size constraints.
+    * You can load the dataset directly using the Hugging Face `datasets` library or `torchvision`:
+    ```python
+    # Example using Hugging Face Datasets
+    from datasets import load_dataset
+    dataset = load_dataset("coco", split="validation")
+    
+    # Example using Torchvision
+    import torchvision.datasets as dset
+    coco_val = dset.CocoCaptions(root = 'path/to/images',
+                                 annFile = 'path/to/annotations.json')
+    ```
+    
 ## 🧠 Key Findings
 1.  **Semantic Understanding:** CLIP embeddings capture semantic meaning effectively. Searching for "Animals in nature" retrieves relevant images even if the word "animal" isn't in the metadata.
 2.  **Zero-Shot Power:** The model performed surprisingly well on classification tasks it was not explicitly trained for, suggesting high generalization potential.
