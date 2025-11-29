@@ -32,15 +32,18 @@ I utilized Salesforce's **BLIP (Bootstrapping Language-Image Pre-training)** for
 The model successfully retrieved images based on abstract concepts rather than exact file names.
 
 ![Search Query Results](Results-&-Visualizations/Search_Queries_Outputs_Results.png)
+
 *Figure 1: The model retrieves the correct images for "People playing sports" and "Food on a table" by ranking similarity scores.*
 
 ### 2. Zero-Shot Classification & Embeddings
 By analyzing the dot product of embeddings, the model distinguished between complex visual concepts without specific training.
 
 ![Similarity Matrix](Results-&-Visualizations/Similarity_Matrix_Contrastive_Learning_Demo.png)
+
 *Figure 2: Heatmap showing high correlation (darker red) between matching image-text pairs.*
 
 ![Zero Shot Results](Results-&-Visualizations/CLIP_Zero-Shot_Classification_Results.png)
+
 *Figure 3: Probability distribution showing the model's confidence in classifying an image as "an astronaut" vs "a rocket".*
 
 ### 3. Image Captioning Quality (BLIP)
@@ -48,22 +51,25 @@ The Generative model produced descriptive captions for unseen images.
 
 | Input Image | Generated Caption |
 |:---:|:---:|
-| ![Caption 1](Results-&-Visualizations/BLIP_Generate_Caption_01.jpg) | *"a woman sitting on a beach with a dog"* |
-| ![Caption 2](Results-&-Visualizations/BLIP_Generate_Caption_02.jpg) | *"a woman standing in the ocean at sunset"* |
+| ![Caption 1](Results-&-Visualizations/BLIP_Generate_Caption_01.png) | *"a woman sitting on a beach with a dog"* |
+| ![Caption 2](Results-&-Visualizations/BLIP_Generate_Caption_02.png) | *"a woman standing in the ocean at sunset"* |
 
 ### 4. Quantitative Evaluation (BLEU & Recall)
 I evaluated the models using **BLEU scores** (for caption text overlap) and **Recall@K** (for retrieval accuracy).
 
 ![Recall Results](Results-&-Visualizations/Recall_Results_score_Evaluating_Image_Retrieval.png)
+
 *Figure 4: Recall scores measuring how often the correct image was retrieved in the top K results.*
 
 ![BLEU Score](Results-&-Visualizations/BLEU_Score_Evaluating_Caption_Quality.png)
+
 *Figure 5: BLEU scores indicating the linguistic similarity between generated captions and human reference text.*
 
 ### 5. Model Efficiency
 I analyzed the parameter distribution to understand the computational cost of the VLM.
 
 ![Parameters](Results-&-Visualizations/Parameters_percentage.png)
+
 *Figure 6: Breakdown of trainable parameters in the model architecture.*
 
 ## 🧠 Key Findings
