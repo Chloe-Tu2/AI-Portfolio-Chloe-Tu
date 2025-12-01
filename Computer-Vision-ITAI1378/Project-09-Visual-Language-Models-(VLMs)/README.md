@@ -51,8 +51,8 @@ The Generative model produced descriptive captions for unseen images.
 
 | Input Image | Generated Caption |
 |:---:|:---:|
-| ![Caption 1](Results-&-Visualizations/BLIP_Generate_Caption_01.png) | *"a woman sitting on a beach with a dog"* |
-| ![Caption 2](Results-&-Visualizations/BLIP_Generate_Caption_02.png) | *"a woman standing in the ocean at sunset"* |
+| ![Caption 1](Results-&-Visualizations/BLIP_Generate_Caption_01.png) | *"A child holding a flowered umbrella and petting a yak"* |
+| ![Caption 2](Results-&-Visualizations/BLIP_Generate_Caption_02.png) | *"A little girl holding a kitten next to a blue fence"* |
 
 ### 4. Quantitative Evaluation (BLEU & Recall)
 I evaluated the models using **BLEU scores** (for caption text overlap) and **Recall@K** (for retrieval accuracy).
