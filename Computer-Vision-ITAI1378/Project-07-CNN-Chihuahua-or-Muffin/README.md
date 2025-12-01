@@ -64,7 +64,7 @@ Visualizing the "Generalization Gap" between training and validation performance
 
 | Comparative Analysis | Final Prediction |
 |:---:|:---:|
-| ![Compare](Results-&-Visualizations/Analyze_Compare_Results_Training_and_Validation_Loss_Comparison_1.png) | ![Eval](Results-&-Visualizations/Model_Evaluation_Chihuahua_and_Muffin.jpg) |
+| ![Compare](Results-&-Visualizations/Analyze_Compare_Results_Training_and_Validation_Loss_Comparison_1.png) | ![Eval](Results-&-Visualizations/Model_Evaluation_Chihuahua_and_Muffin.png) |
 
 ## Key Findings
 1.  **Convergence:** The model showed rapid learning in the first 3 epochs but required careful tuning (seen in Epochs 6-10) to prevent the validation loss from plateauing or increasing (overfitting).
