@@ -76,7 +76,7 @@ I analyzed the parameter distribution to understand the computational cost of th
 This project utilizes the **COCO (Common Objects in Context)** dataset for training and evaluation benchmarks.
 
 * **Dataset Name:** COCO (Common Objects in Context)
-* **Source:** [https://cocodataset.org/#download](https://cocodataset.org/#download)
+* **Source:** [https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset](https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset)
 * **Access Instructions:**
     * **Note:** The dataset is not included in this repository due to size constraints.
     * You can load the dataset directly using the Hugging Face `datasets` library or `torchvision`:
