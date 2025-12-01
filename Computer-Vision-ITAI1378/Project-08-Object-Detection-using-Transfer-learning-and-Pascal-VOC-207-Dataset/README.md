@@ -1,6 +1,6 @@
 # Object Detection: Faster R-CNN, EfficientDet & SSD
 
-## 📌 Project Overview
+## Project Overview
 **Module:** Object Detection
 **Models:** Faster R-CNN, EfficientDet, SSD MobileNet V2
 **Framework:** TensorFlow, TensorFlow Hub
@@ -10,13 +10,13 @@ This project implements and compares three state-of-the-art **Object Detection**
 2.  **EfficientDet** (One-Stage, Scalable)
 3.  **SSD MobileNet V2** (One-Stage, Mobile/Edge Optimized)
 
-## 🎯 Problem Statement
+## Problem Statement
 Object detection requires balancing computational cost with detection precision.
 * **The Challenge:** Accurately localizing objects of varying scales (e.g., small birds vs. large cars) in complex scenes using bounding boxes.
 * **The Trade-off:** High-accuracy models (like Faster R-CNN) are often too slow for real-time edge devices, while mobile-optimized models (like SSD) may sacrifice some precision.
 * **Goal:** To benchmark these architectures visually and quantitatively on standard classes (Car, Horse, Bird/Toucan).
 
-## ⚙️ Approach & Methodology
+## Approach & Methodology
 
 ### 1. Data Preparation (Pascal VOC)
 * Used the **Pascal VOC 2007** dataset via `tensorflow_datasets`.
@@ -33,7 +33,7 @@ Object detection requires balancing computational cost with detection precision.
 * Applied **Non-Maximum Suppression (NMS)** (implicitly handled by the TF Hub models) to remove duplicate bounding boxes.
 * Visualized confidence scores alongside class labels.
 
-## 📊 Results & Visualizations
+## Results & Visualizations
 
 ### 1. Ground Truth Visualization
 Baseline annotations from the dataset before inference.
@@ -64,7 +64,7 @@ I evaluated the models based on total execution time and loss metrics.
 
 *Figure 1: Performance metrics comparison showing the trade-off between model complexity and loss/accuracy.*
 
-## 💾 Dataset Information
+## Dataset Information
 * **Dataset Name:** Pascal VOC 2007
 * **Source:** [https://www.kaggle.com/datasets/zaraks/pascal-voc-2007](https://www.kaggle.com/datasets/zaraks/pascal-voc-2007)
 * **Loading Code:**
@@ -73,7 +73,7 @@ I evaluated the models based on total execution time and loss metrics.
     dataset, info = tfds.load("voc/2007", split="test", with_info=True)
     ```
 
-## 🧠 Key Findings
+## Key Findings
 1.  **Accuracy Champion:** **Faster R-CNN** consistently provided the most precise bounding boxes, especially for the overlapping horses and small toucans.
 2.  **Speed Champion:** **SSD MobileNet V2** was the fastest, making it ideal for mobile apps, though it occasionally missed smaller objects or had lower confidence scores.
 3.  **The Balance:** **EfficientDet** offered a middle ground, providing better accuracy than SSD while maintaining faster inference speeds than Faster R-CNN.
@@ -85,7 +85,7 @@ I evaluated the models based on total execution time and loss metrics.
 * **Matplotlib** (Visualization)
 * **NumPy** (Image manipulation)
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Project-08-Object-Detection-TensorFlow-PascalVOC/
