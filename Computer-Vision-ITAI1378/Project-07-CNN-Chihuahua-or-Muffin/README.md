@@ -99,7 +99,7 @@ Project-07-CNN-Chihuahua-or-Muffin/
     ├── Data_Preparation_Train-Test Split.png
     ├── Dataset_and_Dataloader.png
     ├── Model_Definition.png
-    ├── Model_Evaluation_Chihuahua_and_Muffin.jpg
+    ├── Model_Evaluation_Chihuahua_and_Muffin.png
     ├── Model_Trainning_Epoch_1-5.png
     ├── Model_Trainning_Epoch_6-10.png
     ├── Modify_The_Training_Function_Epoch_1-5.png
