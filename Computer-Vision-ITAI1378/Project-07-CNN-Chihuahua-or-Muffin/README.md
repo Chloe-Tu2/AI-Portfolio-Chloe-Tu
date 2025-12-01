@@ -73,6 +73,19 @@ The model's predictions on test images, demonstrating its ability to distinguish
 
 *Figure: The model correctly identifying a Chihuahua (Left) and a Muffin (Right), overcoming the visual similarity trap.*
 
+## Dataset Information
+This project utilizes a specific image dataset designed to challenge Computer Vision models with visually similar classes.
+
+* **Dataset Name:** Chihuahua vs. Muffin Image Classification
+* **Repository:** [workshop-chihuahua-vs-muffin](https://github.com/patitimoner/workshop-chihuahua-vs-muffin)
+* **Original Source:** This dataset is popularly available on Kaggle, inspired by the viral "Chihuahua or Muffin" meme.
+* **Structure:**
+    * `train/`: Contains subfolders `chihuahua` and `muffin` for model training.
+    * `test/`: Contains subfolders `chihuahua` and `muffin` for validation/testing.
+* **Access Instructions:**
+    * **Note:** The dataset is not included directly in this repository to save space.
+    * You can clone the data from the link above or download the standard version from [Kaggle](https://www.kaggle.com/datasets/samuelcortinhas/muffin-vs-chihuahua-image-classification).
+      
 ## Key Findings
 1.  **Feature Extraction:** The CNN successfully learned to identify "dog-like" features (ears, eyes) vs "food-like" features (texture, lack of symmetry), despite the color similarities.
 2.  **Epoch Stability:** Extending training from 5 to 10 epochs (as seen in the "Modified" logs) allowed the model to settle into a more stable loss minimum, though care was needed to avoid overfitting.
