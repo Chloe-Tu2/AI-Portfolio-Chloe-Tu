@@ -1,7 +1,6 @@
 # Object Detection: Faster R-CNN, EfficientDet & SSD
 
 ## 📌 Project Overview
-**Course:** ITAI 1378 - Computer Vision
 **Module:** Object Detection
 **Models:** Faster R-CNN, EfficientDet, SSD MobileNet V2
 **Framework:** TensorFlow, TensorFlow Hub
@@ -67,7 +66,7 @@ I evaluated the models based on total execution time and loss metrics.
 
 ## 💾 Dataset Information
 * **Dataset Name:** Pascal VOC 2007
-* **Source:** [http://host.robots.ox.ac.uk/pascal/VOC/](http://host.robots.ox.ac.uk/pascal/VOC/)
+* **Source:** [https://www.kaggle.com/datasets/zaraks/pascal-voc-2007](https://www.kaggle.com/datasets/zaraks/pascal-voc-2007)
 * **Loading Code:**
     ```python
     import tensorflow_datasets as tfds
