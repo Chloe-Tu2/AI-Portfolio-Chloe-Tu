@@ -1,18 +1,18 @@
 # Visual Language Models (VLMs): Bridging Vision & Text
 
-## 📌 Project Overview
+## Project Overview
 **Module:** 09 Visual Language Models
 **Focus:** Visual Language Models (CLIP, BLIP)  
 
 This project explores the intersection of Computer Vision (CV) and Natural Language Processing (NLP) using **Visual Language Models (VLMs)**. Unlike traditional models that process images or text in isolation, VLMs learn a shared representation space, enabling advanced capabilities like **zero-shot classification**, **semantic image search**, and **automated image captioning**.
 
-## 🎯 Problem Statement
+## Problem Statement
 In many real-world scenarios, particularly in digital archiving (e.g., museums) or e-commerce, data is unstructured and unlabeled.
 * **The Search Problem:** Traditional keyword search fails when metadata is missing. We need to find images using natural language descriptions (e.g., "people playing sports") without manual tagging.
 * **The Labeling Problem:** Manually writing descriptions for millions of images is unscalable. We need automated systems to generate accurate, descriptive captions.
 * **The Generalization Problem:** Standard classifiers break when they encounter new categories. We need "Zero-Shot" capabilities to classify images the model has never seen before.
 
-## ⚙️ Approach & Methodology
+## Approach & Methodology
 
 The solution leverages two state-of-the-art VLM architectures implemented via the Hugging Face `transformers` library:
 
@@ -26,7 +26,7 @@ I utilized Salesforce's **BLIP (Bootstrapping Language-Image Pre-training)** for
 * **Method:** This model uses an image encoder and a text decoder to "read" an image and output coherent sentences.
 * **Application:** Used for generating captions and Visual Question Answering (VQA).
 
-## 📊 Results & Visualizations
+## Results & Visualizations
 
 ### 1. Semantic Image Search
 The model successfully retrieved images based on abstract concepts rather than exact file names.
@@ -72,7 +72,7 @@ I analyzed the parameter distribution to understand the computational cost of th
 
 *Figure 6: Breakdown of trainable parameters in the model architecture.*
 
-## 💾 Dataset Information
+## Dataset Information
 This project utilizes the **COCO (Common Objects in Context)** dataset for training and evaluation benchmarks.
 
 * **Dataset Name:** COCO (Common Objects in Context)
@@ -91,13 +91,13 @@ This project utilizes the **COCO (Common Objects in Context)** dataset for train
                                  annFile = 'path/to/annotations.json')
     ```
     
-## 🧠 Key Findings
+## Key Findings
 1.  **Semantic Understanding:** CLIP embeddings capture semantic meaning effectively. Searching for "Animals in nature" retrieves relevant images even if the word "animal" isn't in the metadata.
 2.  **Zero-Shot Power:** The model performed surprisingly well on classification tasks it was not explicitly trained for, suggesting high generalization potential.
 3.  **Metric Limitations:** While BLEU scores provide a benchmark, they don't always reflect human preference. A caption can be factually correct but have a low BLEU score if the phrasing differs from the reference.
 4.  **Business Use Case:** As explored in the lab report, this technology is viable for **Museum Digital Archiving**, allowing curators to search historical artifacts using natural language.
 
-## 🛠️ Technologies Used
+## Technologies Used
 * **Python 3.8+**
 * **PyTorch** (Deep Learning Backend)
 * **Hugging Face Transformers** (CLIP & BLIP models)
@@ -105,7 +105,7 @@ This project utilizes the **COCO (Common Objects in Context)** dataset for train
 * **NLTK** (BLEU Score evaluation)
 * **Matplotlib/Seaborn** (Data Visualization)
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Project-09-Visual-Language-Models-(VLMs)/
