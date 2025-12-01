@@ -2,6 +2,7 @@
 
 ## Project Overview
 **Module:** 09 Visual Language Models
+
 **Focus:** Visual Language Models (CLIP, BLIP)  
 
 This project explores the intersection of Computer Vision (CV) and Natural Language Processing (NLP) using **Visual Language Models (VLMs)**. Unlike traditional models that process images or text in isolation, VLMs learn a shared representation space, enabling advanced capabilities like **zero-shot classification**, **semantic image search**, and **automated image captioning**.
