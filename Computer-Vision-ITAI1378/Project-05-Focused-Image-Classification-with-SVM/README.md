@@ -54,6 +54,7 @@ Visualizing the transformation of data to prepare it for the SVM.
 The SVM model was evaluated using standard classification metrics.
 
 ![Classification Report](Results-&-Visualizations/Training_SVM_Model_Accuracy_Classification_Report.png)
+
 *Figure 3: Classification Report showing Precision, Recall, and F1-Score for the model.*
 
 ## Key Findings
