@@ -1,11 +1,9 @@
 # SVM with Focused Image Classification
 
 ## Project Overview
-**Module:** 05 - Classical Machine Learning for Vision
-
-**Model:** Support Vector Machine (SVM)
-
-**Dataset:** CIFAR-10 (Subset: Ships vs. Cats/Animals)
+* **Module:** 05 - Classical Machine Learning for Vision
+* **Model:** Support Vector Machine (SVM)
+* **Dataset:** CIFAR-10 (Subset: Ships vs. Cats/Animals)
 
 This project explores the application of **Classical Machine Learning** techniques to computer vision tasks. Before the deep learning era, models like **Support Vector Machines (SVMs)** were standard for classification. This project implements an SVM classifier to distinguish between specific object categories (e.g., Ships vs. Cats) from the CIFAR-10 dataset, demonstrating the importance of feature engineering and data preprocessing in non-neural network approaches.
 
