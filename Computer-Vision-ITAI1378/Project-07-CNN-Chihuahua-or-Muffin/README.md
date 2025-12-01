@@ -7,86 +7,92 @@
 
 **Framework:** PyTorch  
 
-This project tackles a classic and humorous computer vision challenge: distinguishing between **Chihuahuas** and **Blueberry Muffins**. While trivial for humans, this task is notoriously difficult for AI due to high **inter-class similarity** (round shapes, similar tan/brown textures, and button-like features representing eyes or blueberries). I designed and trained a custom **Convolutional Neural Network (CNN)** to solve this problem, analyzing performance over 10 epochs and modifying the training function to optimize convergence.
+This project tackles a classic and humorous computer vision challenge: distinguishing between **Chihuahuas** and **Blueberry Muffins**. While trivial for humans, this task is notoriously difficult for AI because of the high visual similarity between the two classes (similar colors, round shapes, and button-like features representing eyes or blueberries). I built and trained a custom **Convolutional Neural Network (CNN)** to solve this binary classification problem.
 
 ## Problem Statement
-* **Visual Similarity:** The model must distinguish subtle anatomical features (ears, snouts) from food textures, despite both classes having nearly identical color histograms.
-* **Optimization Challenge:** Balancing the learning rate and batch size to ensure the model generalizes rather than memorizing the small dataset.
-* **Goal:** To achieve stable validation accuracy and minimize loss across extended training epochs.
+The primary challenge in this project is **Inter-class Similarity**.
+* **Visual Confusion:** The model must learn to distinguish subtle features (e.g., ears, snouts) rather than relying on dominant color blobs, as both classes share similar tan/brown pixel distributions.
+* **Overfitting Risk:** With a small dataset and complex model, the network might memorize training data rather than generalizing features.
+* **Goal:** To achieve high validation accuracy while maintaining a stable loss curve, proving the model has learned relevant feature maps.
 
 ## Approach & Methodology
 
-### 1. Data Pipeline
-* **Preprocessing:** Resized images and converted them to PyTorch tensors.
-* **Split:** Divided data into Training (80%) and Validation (20%) sets.
-* **DataLoader:** Implemented a custom loader to handle batching, shuffling, and image transformations.
+### 1. Data Preparation & Loading
+* **Dataset:** A curated dataset of Chihuahua and Muffin images.
+* **Train-Test Split:** Split the data to ensure the model is evaluated on unseen images.
+* **PyTorch DataLoader:** Implemented `Dataset` and `DataLoader` classes to handle batching and shuffling efficiently.
+* **Preprocessing:** Resized images to a standard dimension and converted them to PyTorch tensors.
 
-### 2. CNN Architecture
-* **Convolutional Layers:** Extracted spatial features (edges -> textures -> object parts).
-* **Pooling:** Reduced spatial dimensions to focus on dominant features.
-* **Fully Connected Layers:** Performed final binary classification.
+### 2. CNN Model Architecture
+I defined a custom CNN class inheriting from `nn.Module` containing:
+* **Convolutional Layers:** To extract spatial features (edges, textures, shapes).
+* **Activation Functions (ReLU):** To introduce non-linearity.
+* **Pooling Layers (MaxPooling):** To reduce dimensionality and computation.
+* **Fully Connected Layers:** To perform the final binary classification based on extracted features.
 
-### 3. Training Experiments
-* **Standard Training:** Ran an initial baseline training loop for 5 epochs.
-* **Extended Training:** Continued training from Epoch 6-10 to observe long-term convergence.
-* **Modified Training Function:** Experimented with adjustments to the training loop (e.g., logging frequency, loss tracking) to better visualize the "Learning Curve."
+### 3. Training & Tuning
+* **Training Loop:** Implemented a standard loop using `CrossEntropyLoss` and an Optimizer (`Adam`/`SGD`).
+* **Model Tuning:** I experimented with modifying the training function to improve convergence, running the model for extended epochs (up to 10) to observe long-term stability.
+* **Monitoring:** Tracked Training Loss vs. Validation Loss across epochs to detect overfitting.
 
 ## Results & Visualizations
 
-### 1. Setup & Architecture
-Visualizing the foundational components of the PyTorch pipeline.
+### 1. Architecture & Setup
+Visualizing the pipeline setup before training.
 
-| Training Setup | Data Preparation | Model Definition |
-|:---:|:---:|:---:|
-| ![Setup](Results-&-Visualizations/Training_Setup.png) | ![Split](Results-&-Visualizations/Data_Preparation_Train-Test%20Split.png) | ![Model](Results-&-Visualizations/Model_Definition.png) |
-| *Hyperparameters & Device* | *Train/Test Data Split* | *Layer Architecture* |
+| Dataset Split | Model Definition | DataLoader Setup | Training Config |
+|:---:|:---:|:---:|:---:|
+| ![Split](Results-&-Visualizations/Data_Preparation_Train-Test%20Split.png) | ![Model](Results-&-Visualizations/Model_Definition.png) | ![Loader](Results-&-Visualizations/Dataset_and_Dataloader.png) | ![Setup](Results-&-Visualizations/Training_Setup.png) |
 
-### 2. Training Progression (Epochs 1-10)
-Tracking the model's accuracy and loss reduction over time.
+### 2. Training Progress (Standard vs. Modified)
+Comparing the model's performance over multiple epochs.
 
-| Epochs 1-5 (Initial) | Epochs 6-10 (Extended) |
+| Initial Training (Epochs 1-5) | Extended Training (Epochs 6-10) |
 |:---:|:---:|
-| ![Epoch 1-5](Results-&-Visualizations/Model_Trainning_Epoch_1-5.png) | ![Epoch 6-10](Results-&-Visualizations/Model_Trainning_Epoch_6-10.png) |
+| ![Train 1-5](Results-&-Visualizations/Model_Trainning_Epoch_1-5.png) | ![Train 6-10](Results-&-Visualizations/Model_Trainning_Epoch_6-10.png) |
 
-### 3. Modified Training Function Analysis
-Results from the optimized training loop experiments.
-
-| Modified Epochs 1-5 | Modified Epochs 6-10 |
+| Modified Function (Epochs 1-5) | Modified Function (Epochs 6-10) |
 |:---:|:---:|
-| ![Mod Epoch 1-5](Results-&-Visualizations/Modify_The_Training_Function_Epoch_1-5.png) | ![Mod Epoch 6-10](Results-&-Visualizations/Modify_The_Training_Function_Epoch_6-10.png) |
+| ![Mod 1-5](Results-&-Visualizations/Modify_The_Training_Function_Epoch_1-5.png) | ![Mod 6-10](Results-&-Visualizations/Modify_The_Training_Function_Epoch_6-10.png) |
 
-### 4. Loss Analysis & Evaluation
-Visualizing the "Generalization Gap" between training and validation performance.
+### 3. Loss Analysis Curves
+Analyzing the gap between Training and Validation loss to check for overfitting.
 
-| Loss Visualization 1 | Loss Visualization 2 |
+| Loss Comparison 1 | Loss Comparison 2 |
 |:---:|:---:|
-| ![Loss 1](Results-&-Visualizations/Visualize_Training_Progress_Training_and_Validation_Loss_per_Epoch_1.png) | ![Loss 2](Results-&-Visualizations/Visualize_Training_Progress_Training_and_Validation_Loss_per_Epoch_2.png) |
+| ![Loss 1](Results-&-Visualizations/Analyze_Compare_Results_Training_and_Validation_Loss_Comparison_1.png) | ![Loss 2](Results-&-Visualizations/Analyze_Compare_Results_Training_and_Validation_Loss_Comparison_2.png) |
 
-| Comparative Analysis | Final Prediction |
+| Visualization 1 | Visualization 2 |
 |:---:|:---:|
-| ![Compare](Results-&-Visualizations/Analyze_Compare_Results_Training_and_Validation_Loss_Comparison_1.png) | ![Eval](Results-&-Visualizations/Model_Evaluation_Chihuahua_and_Muffin.png) |
+| ![Vis 1](Results-&-Visualizations/Visualize_Training_Progress_Training_and_Validation_Loss_per_Epoch_1.png) | ![Vis 2](Results-&-Visualizations/Visualize_Training_Progress_Training_and_Validation_Loss_per_Epoch_2.png) |
+
+### 4. Final Model Evaluation
+The model's predictions on test images, demonstrating its ability to distinguish the confusing classes.
+
+![Evaluation Full](Results-&-Visualizations/Model_Evaluation_Chihuahua_and_Muffin.jpg)
+*Figure: The model correctly identifying a Chihuahua (Left) and a Muffin (Right), overcoming the visual similarity trap.*
 
 ## Key Findings
-1.  **Convergence:** The model showed rapid learning in the first 3 epochs but required careful tuning (seen in Epochs 6-10) to prevent the validation loss from plateauing or increasing (overfitting).
-2.  **Modified Function:** Adjusting the training function provided clearer granular logs, helping to identify exactly when the model started to memorize the data vs. learning features.
-3.  **Visual Distinction:** Despite the difficulty, the CNN successfully identified "Muffin" vs "Chihuahua" in the test set (as seen in the Evaluation image), proving that convolution filters can separate texture (muffin top) from anatomy (dog eyes).
+1.  **Feature Extraction:** The CNN successfully learned to identify "dog-like" features (ears, eyes) vs "food-like" features (texture, lack of symmetry), despite the color similarities.
+2.  **Epoch Stability:** Extending training from 5 to 10 epochs (as seen in the "Modified" logs) allowed the model to settle into a more stable loss minimum, though care was needed to avoid overfitting.
+3.  **Loss Curves:** The "Visualize Training Progress" charts highlight that while training loss consistently drops, validation loss can fluctuate, indicating the importance of techniques like Dropout or Early Stopping.
 
 ## Technologies Used
 * **Python 3.8+**
-* **PyTorch:** `torch`, `torch.nn`, `torch.optim` for deep learning.
-* **Matplotlib:** For visualizing loss curves and sample predictions.
-* **Pandas/NumPy:** For data structure handling.
-* **Scikit-Learn:** For dataset splitting.
+* **PyTorch (torch, torch.nn, torchvision):** Main Deep Learning framework.
+* **Matplotlib:** For plotting loss curves and displaying images.
+* **Pandas/NumPy:** Data manipulation.
+* **Scikit-Learn:** Used for `train_test_split`.
 
 ## Project Structure
 
 ```text
 Project-07-CNN-Chihuahua-or-Muffin/
-├── P07_CNN-Chihuahua-or-Muffin.ipynb       # Main PyTorch Notebook
-├── P07_PF_CNN-Chihuahua-or-Muffin.pdf      # Project Report
-├── J07_RF_CNN-Chihuahua-or-Muffin.pdf      # Reflection Journal
-├── README.md                               # Project Documentation
-└── Results-&-Visualizations/               # All Output Images
+├── P07_CNN-Chihuahua-or-Muffin.ipynb        # Main PyTorch Notebook
+├── P07_PF_CNN-Chihuahua-or-Muffin.pdf       # Project Report
+├── J07_RF_CNN-Chihuahua-or-Muffin.pdf       # Reflection Journal
+├── README.md                                # Project Documentation
+└── Results-&-Visualizations/                # Output Images
     ├── Analyze_Compare_Results_Training_and_Validation_Loss_Comparison_1.png
     ├── Analyze_Compare_Results_Training_and_Validation_Loss_Comparison_2.png
     ├── Data_Preparation_Train-Test Split.png
