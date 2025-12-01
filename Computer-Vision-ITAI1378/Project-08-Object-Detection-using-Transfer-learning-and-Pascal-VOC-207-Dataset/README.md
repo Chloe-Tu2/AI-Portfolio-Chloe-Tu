@@ -2,7 +2,9 @@
 
 ## Project Overview
 **Module:** Object Detection
+
 **Models:** Faster R-CNN, EfficientDet, SSD MobileNet V2
+
 **Framework:** TensorFlow, TensorFlow Hub
 
 This project implements and compares three state-of-the-art **Object Detection** architectures to identify and localize objects within the **Pascal VOC (Visual Object Classes)** dataset. The study evaluates the trade-offs between accuracy and inference speed across:
