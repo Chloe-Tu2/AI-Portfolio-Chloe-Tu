@@ -115,13 +115,13 @@ Project-09-Visual-Language-Models-(VLMs)/
 ├── README.md                                    # Project Documentation
 └── Results-&-Visualizations/                    # Output images and plots
     ├── BLEU_Score_Evaluating_Caption_Quality.png
-    ├── BLIP_Generate_Caption_01.jpg
-    ├── BLIP_Generate_Caption_02.jpg
+    ├── BLIP_Generate_Caption_01.png
+    ├── BLIP_Generate_Caption_02.png
     ├── CLIP_Model_Statistics.png
     ├── CLIP_Zero-Shot_Classification_Results.png
     ├── Image-Text_Similarity_Matrix_(CLIP_Embeddings).png
-    ├── Image_Search_Fuction_people_playing_sports_&_Animals_In_Nature.jpg
-    ├── Image_Search_Function_Food_on_a_Table.jpg
+    ├── Image_Search_Fuction_people_playing_sports_&_Animals_In_Nature.png
+    ├── Image_Search_Function_Food_on_a_Table.png
     ├── Parameters_percentage.png
     ├── Recall_Results_score_Evaluating_Image_Retrieval.png
     ├── Search_Queries_Outputs_Results.png
