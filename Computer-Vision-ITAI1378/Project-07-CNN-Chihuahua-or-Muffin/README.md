@@ -69,7 +69,7 @@ Analyzing the gap between Training and Validation loss to check for overfitting.
 ### 4. Final Model Evaluation
 The model's predictions on test images, demonstrating its ability to distinguish the confusing classes.
 
-![Evaluation Full](Results-&-Visualizations/Model_Evaluation_Chihuahua_and_Muffin.jpg)
+![Evaluation Full](Results-&-Visualizations/Model_Evaluation_Chihuahua_and_Muffin.png)
 *Figure: The model correctly identifying a Chihuahua (Left) and a Muffin (Right), overcoming the visual similarity trap.*
 
 ## Key Findings
