@@ -97,26 +97,26 @@ Project-08-Object-Detection-TensorFlow-PascalVOC/
 └── Results-&-Visualizations/
     ├── Mode_Evaluation_Results.png                              # Metrics Chart
     │
-    ├── Faster_R-CNN_Detections_Car.jpg                          # Faster R-CNN Outputs
-    ├── Faster_R-CNN_Detections_Horse_Racing.jpg
-    ├── Faster_R-CNN-Detections_Toucans.jpg
+    ├── Faster_R-CNN_Detections_Car.png                          # Faster R-CNN Outputs
+    ├── Faster_R-CNN_Detections_Horse_Racing.png
+    ├── Faster_R-CNN-Detections_Toucans.png
     │
-    ├── EfficientDet_Detections_Car.jpg                          # EfficientDet Outputs
-    ├── EffieientDet_Detections_Horse_Racing.jpg
-    ├── EfficientDet_Detection_Toucans.jpg
+    ├── EfficientDet_Detections_Car.png                          # EfficientDet Outputs
+    ├── EffieientDet_Detections_Horse_Racing.png
+    ├── EfficientDet_Detection_Toucans.png
     │
-    ├── SSD_Mobile_V2_Detections_Car.jpg                         # SSD Outputs
-    ├── SSD_MobileNet_V2_Detections_Horse_Racing.jpg
-    ├── SSD_MoblieNet_V2_Detections_Toucans.jpg
+    ├── SSD_Mobile_V2_Detections_Car.png                         # SSD Outputs
+    ├── SSD_MobileNet_V2_Detections_Horse_Racing.png
+    ├── SSD_MoblieNet_V2_Detections_Toucans.png
     │
     ├── Image_with_Ground_Truth_Bounding_Box_Car.png             # Ground Truth Visuals
     ├── Image_with_Ground_Truth_Bounding_Boxes_Horse_Racing.png
     ├── Image_With_Ground_Truth_Bounding_Boxes_Toucans.png
     │
-    ├── Process_and_Display_Image_with_Detections_Car.jpg        # Process Steps
-    ├── Process_and_Display_Image_with_Detections_Horse_Racing.jpg
+    ├── Process_and_Display_Image_with_Detections_Car.png        # Process Steps
+    ├── Process_and_Display_Image_with_Detections_Horse_Racing.png
     │
-    ├── Sample_Image_1_Horse_Racing.jpg                          # Raw Sample Images
-    ├── Sample_Image_2_Car.jpg
-    ├── Sample_Image_3_Toucans.jpg
-    └── Upload_Image_Horse.jpg                                   # Custom Upload Test
+    ├── Sample_Image_1_Horse_Racing.png                          # Raw Sample Images
+    ├── Sample_Image_2_Car.png
+    ├── Sample_Image_3_Toucans.png
+    └── Upload_Image_Horse.png                                   # Custom Upload Test
