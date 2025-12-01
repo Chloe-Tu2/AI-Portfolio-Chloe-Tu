@@ -48,7 +48,7 @@ Comparing how different models handle the "Car" class.
 
 | Faster R-CNN | EfficientDet | SSD MobileNet V2 |
 |:---:|:---:|:---:|
-| ![FRCNN Car](Results-&-Visualizations/Faster_R-CNN_Detections_Car.jpg) | ![EffDet Car](Results-&-Visualizations/EfficientDet_Detections_Car.jpg) | ![SSD Car](Results-&-Visualizations/SSD_Mobile_V2_Detections_Car.jpg) |
+| ![FRCNN Car](Results-&-Visualizations/Faster_R-CNN_Detections_Car.png) | ![EffDet Car](Results-&-Visualizations/EfficientDet_Detections_Car.png) | ![SSD Car](Results-&-Visualizations/SSD_Mobile_V2_Detections_Car.png) |
 | *Tightest boxes, high confidence.* | *Good accuracy, slightly looser box.* | *Fastest inference, lower confidence.* |
 
 ### 3. Model Comparison: Animal Detection (Toucans)
@@ -56,12 +56,13 @@ Small object detection is often difficult for mobile models.
 
 | Faster R-CNN | EfficientDet | SSD MobileNet V2 |
 |:---:|:---:|:---:|
-| ![FRCNN Toucan](Results-&-Visualizations/Faster_R-CNN-Detections_Toucans.jpg) | ![EffDet Toucan](Results-&-Visualizations/EfficientDet_Detection_Toucans.jpg) | ![SSD Toucan](Results-&-Visualizations/SSD_MoblieNet_V2_Detections_Toucans.jpg) |
+| ![FRCNN Toucan](Results-&-Visualizations/Faster_R-CNN-Detections_Toucans.png) | ![EffDet Toucan](Results-&-Visualizations/EfficientDet_Detection_Toucans.png) | ![SSD Toucan](Results-&-Visualizations/SSD_MoblieNet_V2_Detections_Toucans.png) |
 
 ### 4. Quantitative Evaluation
 I evaluated the models based on total execution time and loss metrics.
 
 ![Evaluation Results](Results-&-Visualizations/Mode_Evaluation_Results.png)
+
 *Figure 1: Performance metrics comparison showing the trade-off between model complexity and loss/accuracy.*
 
 ## 💾 Dataset Information
